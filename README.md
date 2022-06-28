@@ -1,5 +1,4 @@
-# xRP
-Repo for Expected Runs Prevented (xRP) models
+# Expected Runs Prevented (xRP)
 
 xRP is a model that estimates an individual pitch's ability to limit (or allow) runs, based off of how that pitch's characteristics (speed, movement, location, etc) have affected outcomes for similar pitches in the past. Using data from 2017-2021, I estimate the likelihood of a given pitch to be each possible outcome, without including results on balls-in-play (ball, HBP, swinging strike, Line Drive @ 105+mph, etc). I use the average wOBA value for each outcome weighted by the likelihood of that outcome, and sum those outcome wOBAs together, then convert it to a run scale where 0 is the average pitch outcome for that season (positive values "prevent" runs, while negative values "allow" runs). Having this information allows me to estimate various qualities of a pitcher's overall arsenal:
 
